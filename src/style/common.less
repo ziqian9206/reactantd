@@ -1,0 +1,18 @@
+// @colorA:'red'变量
+//动态计算长度值calc，支持加减乘除,100vh = 100% 1vh = 1%
+.container{
+    display:flex;
+    .nav-left{
+        width:15%;
+        min-width: 180px;
+        height: calc(100vh);
+    }
+    .main{
+        flex:1;
+        height:calc(100vh);
+    }
+    .content{
+        position:relative;
+        padding: 20px;
+    }
+}
