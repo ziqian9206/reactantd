@@ -4,6 +4,7 @@
 import React from 'react'
 import { Row ,Col} from 'antd'
 import NavLeft from './components/NavLeft'
+import Header from './components/Header'
 import './resource/common.less'
 
 //import Header from './components/Header'
@@ -14,7 +15,7 @@ export default class Admin extends React.Component{
     render(){
         return(
             <Row className="container">
-                <h1>xxxxxxx</h1>
+                <Header />
                 <Col span="3" className="nav-left">
                     <NavLeft />
                 </Col>

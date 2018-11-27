@@ -33,7 +33,7 @@ export default class NavLeft extends React.Component{
     render(){
         return(
            <div>
-               <div className = 'logo'>
+               <div className ='logo'>
                    <img src='/assets/imooc.png' alt=''/>
                    <h1>Imooc MS</h1>
                 </div> 
