@@ -19,7 +19,9 @@ export default class extends React.Component{
     }
     getWeatherData=()=>{
         const api = 'http://api.douban.com/v2/movie/top250?start=25&count=25'
-        axios({url:api}).then()
+        axios({url:api}).then((res)=>{
+
+        })
     }
     render(){
         return(
